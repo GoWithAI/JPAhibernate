@@ -1,8 +1,0 @@
-SCOPE of Bean :
-===============
-1.Singleton - Spring instance per Spring IOC container 
-2.Prototype - Single Bean can be called by New object getting returned by Spring
-
-3.Request - HTTP request (Only Valid in the context of a Web-Aware Spring ApplicationContext )
-4.Session - HTTP request (Only Valid in the context of a Web-Aware Spring ApplicationContext ) 
-5.Golbal-Session - HTTP request (Only Valid in the context of a Web-Aware Spring ApplicationContext )
