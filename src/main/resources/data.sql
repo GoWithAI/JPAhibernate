@@ -1,8 +1,8 @@
 insert into course (id, full_name,created_date,last_updated_date) values 
-(10001,'Java',sysdate(),sysdate());
-insert into course (id, full_name,created_date,last_updated_date) values (20001,'spring',
+(10001,'Java Course11',sysdate(),sysdate());
+insert into course (id, full_name,created_date,last_updated_date) values (20001,'spring Course12',
 sysdate(),sysdate());
-insert into course (id, full_name,created_date,last_updated_date) values (30001,'hibernate',
+insert into course (id, full_name,created_date,last_updated_date) values (30001,'hibernate Course20',
 sysdate(),sysdate());
 
 insert into passport(id,number)
