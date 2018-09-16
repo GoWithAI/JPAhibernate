@@ -18,6 +18,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 import test.practice.criteriaQuery.Course;
 import test.practice.criteriaQuery.DemoApplication;
@@ -135,6 +136,7 @@ public class CriteriaQueryTest {
 	}
 
 	@Test
+	@Transactional
 	public void left_join() {
 		// "Select c From Course c left join c.students s"
 
