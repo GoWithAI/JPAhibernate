@@ -1,15 +1,16 @@
+
 insert into course (id, full_name,created_date,last_updated_date) values 
 (10001,'Java Course11',sysdate(),sysdate());
 insert into course (id, full_name,created_date,last_updated_date) values (20001,'Spring Course12',
 sysdate(),sysdate());
 insert into course (id, full_name,created_date,last_updated_date) values (30001,'Hibernate Course20',
 sysdate(),sysdate());
-insert into course (id, full_name,created_date,last_updated_date) values (40001,'Dummy0',sysdate(),sysdate());
-insert into course (id, full_name,created_date,last_updated_date) values (50001,'Dummy1',sysdate(),sysdate());
+insert into course (id, full_name,created_date,last_updated_date) values (40001,'Dummy',sysdate(),sysdate());
+insert into course (id, full_name,created_date,last_updated_date) values (50001,'Dummy',sysdate(),sysdate());
 
 insert into course (id, full_name,created_date,last_updated_date) values (60001,'Dummy2',sysdate(),sysdate());
 
-insert into course (id, full_name,created_date,last_updated_date) values (70001,'Dummy3',sysdate(),sysdate());
+insert into course (id, full_name,created_date,last_updated_date) values (70001,'Dummy',sysdate(),sysdate());
 
 insert into course (id, full_name,created_date,last_updated_date) values (80001,'Dummy4',sysdate(),sysdate());
 

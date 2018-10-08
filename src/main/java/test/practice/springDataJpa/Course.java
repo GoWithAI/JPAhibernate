@@ -17,6 +17,8 @@ import javax.persistence.Table;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name = "Course")
 @NamedQueries(value = { @NamedQuery(name = "get_all_course", query = "Select c From Course c"),
@@ -37,6 +39,7 @@ public class Course {
 	private List<Review> review = new ArrayList<>();
 
 	@ManyToMany(mappedBy = "course")
+	@JsonIgnore
 	private List<Student> students = new ArrayList<>();
 
 	@UpdateTimestamp
